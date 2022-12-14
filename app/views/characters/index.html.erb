@@ -1,0 +1,12 @@
+<div>
+  <h1>Список персонажей:</h1>
+
+  <ul>
+    <% @characters.each do |character| %>
+      <li>
+        <%= character.team %>
+        <%= character.unit %>
+      </li>
+    <% end %>
+  </ul>
+</div>
